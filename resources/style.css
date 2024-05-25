@@ -1,0 +1,82 @@
+:root {
+    --main: hsl(0, 0%, 100%);
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--main);
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    gap: 2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    max-width: 20rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+img {
+    border-radius: 100px;
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.jess {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.where {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.who {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.6rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
